@@ -1,9 +1,11 @@
 import React from 'react';
 import { View } from 'react-native';
 
-const Card = () => {
+const Card = (props) => {
+    // props.children will render any components passed to Card component
     return (
-        <View style={style.containerStyle}>
+        <View style={styles.containerStyle}>
+            {props.children}
         </View>
     );
 };
