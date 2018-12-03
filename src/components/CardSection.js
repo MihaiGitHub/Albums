@@ -14,8 +14,8 @@ const styles = {
         borderBottomWidth: 1,
         padding: 5,
         backgroundColor: '#fff',
-        justifyContent: 'flex-start',
-        flexDirection: 'row',
+        justifyContent: 'flex-start', // Applies horizontally in this case due to flexDirection
+        flexDirection: 'row', // Use flexbox to position elements horizontally using justifyContent
         borderColor: '#ddd',
         position: 'relative'
     }
