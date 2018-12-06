@@ -26,7 +26,7 @@ const AlbumDetail = ({ album }) => { // destructure
                 <Image style={imageStyle} source={{ uri: image}} />
             </CardSection>
             <CardSection>
-                <Button />
+                <Button onPress={() => console.log(title)} />
             </CardSection>
         </Card>
     );
