@@ -9,4 +9,4 @@ Ensure a device, or emulated Android image is connected.
 `git clone https://github.com/MihaiGitHub/Albums.git` <br>
 `cd Albums` <br>
 `npm install` <br>
-Run `react-native run-android`
+`react-native run-android`
