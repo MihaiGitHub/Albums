@@ -26,7 +26,9 @@ const AlbumDetail = ({ album }) => { // destructure
                 <Image style={imageStyle} source={{ uri: image}} />
             </CardSection>
             <CardSection>
-                <Button onPress={() => Linking.openURL(url)} />
+                <Button onPress={() => Linking.openURL(url)}>
+                    Buy Now
+                </Button>
             </CardSection>
         </Card>
     );
